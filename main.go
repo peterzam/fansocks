@@ -19,6 +19,7 @@ var (
 )
 
 func main() {
+	flag.Parse()
 
 	var t []proxy.Dialer
 	f, err := ioutil.ReadFile(*csvfilepath)

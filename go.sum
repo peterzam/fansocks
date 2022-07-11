@@ -1,0 +1,4 @@
+codeberg.org/peterzam/socks5 v0.0.0-20220710174902-2f6b98018b3e h1:le390Am40PWmIYGWCod/evkGSjLyA67GnCCwRGX30XI=
+codeberg.org/peterzam/socks5 v0.0.0-20220710174902-2f6b98018b3e/go.mod h1:QqDrPy7UN9n2z7uRghCCnushsMAiU7HhvFtKebyUSSE=
+golang.org/x/net v0.0.0-20220708220712-1185a9018129 h1:vucSRfWwTsoXro7P+3Cjlr6flUMtzCwzlvkxEQtHHB0=
+golang.org/x/net v0.0.0-20220708220712-1185a9018129/go.mod h1:XRhObCWvk6IyKnWLug+ECip1KBveYUHfp+8e9klMJ9c=

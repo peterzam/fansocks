@@ -5,9 +5,9 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"math/rand"
 	"net"
+	"os"
 
 	"codeberg.org/peterzam/socks5"
 	"golang.org/x/net/proxy"
@@ -22,7 +22,7 @@ func main() {
 	flag.Parse()
 
 	var t []proxy.Dialer
-	f, err := ioutil.ReadFile(*csvfilepath)
+	f, err := os.ReadFile(*csvfilepath)
 	if err != nil {
 		fmt.Println("----------------")
 		fmt.Println("CSV file read error")
